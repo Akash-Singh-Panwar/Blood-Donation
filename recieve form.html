@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <title></title>
+    <link href="stylesheet/recieve form.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header-->
+    <div id="header" class="header">
+        <div id="menu" class="navbar">
+            <div id="logo">
+                <a href="index.html"><img src="img\Blooddrop.png" class="logo" width="95px" height="50px"></a>
+                <a href="index.html">
+                    <h1>रक्त दान</h1>
+                </a>
+            </div>
+
+            <ul class="link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hospital.html">Hospitals</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+                <li><input type="button" name="login" value="Login" onclick="location.href='login.html'" /></li>
+            </ul>
+        </div>
+    </div>
+    <div id="head-donate">
+        <h1>Blood Receiving Form</h1>
+    </div>
+
+    <!-- blood-recieving-form -->
+    <div id="donate" class="donate-back">
+        <div id="form">
+            <form onsubmit = "return validate()" action="form submitted.html">
+                <div id="name">
+                    <input id = "id1" type="text" placeholder="Receiver's Name without space" required />
+                </div>
+                <div id="age">
+                    <input id = "id2" type="text" placeholder="Age" required />
+                </div>
+                <div id="bloodgroup">
+                    <input id = "id3" type="text" placeholder="Blood Group" required />
+                </div>
+                <div id="phonenumber">
+                    <input id = "id4" type="text" placeholder="Phone Number" required maxlength="10"/>
+                </div>
+                <div id="email">
+                    <input id = "id5" type="text" placeholder="Email" required />
+                </div>
+                <div id="submit-button">
+                    <input id = "submit" type="submit" value="Submit" onclick = "validate()">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src = "javascript/recieveform.js"></script>
+</body>
+</html>

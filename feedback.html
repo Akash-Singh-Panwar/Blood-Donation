@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Feedback Form</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/feedback.css">
+    </head>
+    <body>
+
+         <!-- header -->
+         <div id="header" class="header">
+            <div id="menu" class="navbar">
+                <div id="logo">
+                    <a href="index.html"><img src="img\Blooddrop.png" class="logo" width="95px" height="50px"></a>
+                    <a href="index.html"><h1>रक्त दान</h1></a>
+                </div>
+    
+                    <ul class="link">
+                        <li><a href="user landing page.html" class="name-user">User</a></li>
+                        <li><a href="login.html" class="logout">Logout</a></li>
+                    </ul>   
+            </div>
+        </div>
+    
+        <!-- top -->
+        <div id="head">
+            <h1>Feedback Form</h1>
+        </div>
+       
+        <!-- feedback-form-container -->
+        <div id="form-container" class="feedback-form">
+            <form action="user landing page.html" class="feedback">
+                <div id="top-form-container">
+                    <h2>Send us your feedback!</h2>
+                    <span class="info">Do you have a suggestion or found some bug?</span>
+                    <br/>
+                    <span class="info">Let us know by filling below.</span>
+                </div>
+
+                <!-- contents-of-form-in-middle -->
+                <div id="middle-content">
+                    <span class="asking-ques">How was your experience?</span>
+                    <div id="smiley-img" class="smiley">
+                        <ul class="smiley-link">
+                            <li id="smile"><a href="" id="smileyO"><i class="far fa-smile fa-2x"></i></a></li>
+                            <li id="meh"><a href="" id="smiley0"><i class="far fa-meh fa-2x"></i></a></li>
+                            <li id="frown"><a href="" id="smileyO"><i class="far fa-frown fa-2x"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- inputs-email-comments-radiobutton -->
+                    <div id="email">
+                        <input type="text" placeholder=" &#xf0e0; Email" maxlength="30" required />
+                    </div>
+                    <div id="comments">
+                        <textarea placeholder="Describe your experience here..." maxlength="100" required></textarea>
+                    </div>
+                    <div class="radio-select">
+                        <input type="radio" id="bug" name="option" required/>Bug
+                        <input type="radio" id="suggestion" name="option" required/>Suggestion 
+                        <input type="radio" id="other" name="option" required/>Other
+                    </div>
+                </div>
+                
+                <!-- bottom-of-form -->
+                <div id="bottom-form-container">
+                    <input type="submit" id="submitO" value="Submit" />
+                </div>
+            </form>
+        </div>
+     
+    <!-- fontawesome js file for icons -->
+    <script src="https://kit.fontawesome.com/85989e8249.js" crossorigin="anonymous"></script>
+    </body>
+</html>

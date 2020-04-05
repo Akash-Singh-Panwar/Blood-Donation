@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blood Donation</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/main.css">
+</head>
+<body>
+
+	<!-- header -->
+    <div id="header" class="header">
+    	<div id="menu" class="navbar">
+            <div id="logo">
+                <a href="index.html"><img src="img\Blooddrop.png" class="logo" width="95px" height="50px"></a>
+                <a href="index.html"><h1>रक्त दान</h1></a>
+            </div>
+
+            <ul class="link">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hospital.html">Hospitals</a></li>
+				<li><a href="contact.html">Contact</a></li>
+                <li><a href="FAQS.html">FAQs</a></li>
+                <li><a href="refer.html">Refer</a></li>
+                <li><input type="button" name="login" value="Login" onclick="openloginForm()"/></li>
+            </ul> 
+        </div>      
+    </div>
+
+    <div id="main-content" class="main"> 
+        <!-- poster -->
+        <div class="poster-most-right">
+            <img src="img\blood-bag7.png" alt="blood bag" class="poster-blood-bag" style="width:50%; height:50%;">
+        </div>
+
+        <div id="slogan">
+            Your blood can<br/> save millions of life.
+        </div>
+
+        <div id="body-content-left">
+            <h2>For Donaters & Receivers</h2>
+            <span class="small-content">Happy to see you. Be a part of our family and donate your some amount of blood for those who need it. Hey! Get smile on your face. Sharing is Caring. We know what you want and we care about it.</span>
+    
+            <!-- buttons -->
+            <div id=buttons>
+                <input type="button" name="login" value="Login" onclick="openloginForm()"/>
+                <input type="button" name="signup" value="sign up" onclick="location.href='signup.html'" />
+            </div>
+        </div>
+    </div>
+
+    <!-- popup-login-form -->
+    <div id="popupform">
+        <div class="loginportal" id="popup-portal">
+            <form action="user landing page.html">
+                <div id="info">
+                    <input type="text" value="" placeholder=" &#xf007;   Username" required />
+                    <br/><input type="password" placeholder="&#xf084;   Password" required />
+                </div>
+                <div id="button">
+                    <input type="submit" value="Login" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <div id="" class="footer">
+    	<div class="footer-container">
+    		Copyright &#169; 2020 रक्त दान 
+            <a href="#">| Privacy Policy</a>
+    	</div>
+    </div>
+
+    <!-- popup js file -->
+    <script src="javascript/popupform.js"></script>
+    <!-- fontawesome js file for icons -->
+    <script src="https://kit.fontawesome.com/85989e8249.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
