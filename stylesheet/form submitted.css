@@ -1,0 +1,49 @@
+/* css file of form submitted */
+
+body {
+    background-image: linear-gradient(to right, #EC6F66 , #ffc6c4 );
+}
+
+/* styling heading */
+h1 {
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    font-size: 60px;
+    color: #2B2828;
+}
+
+/* styling subheading */
+h2 {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    font-size: 40px;
+    color: #2B2828;
+}
+
+/* styling button */
+#home-button {
+    position: absolute;
+    top: 65%;
+    left: 42.5%;
+}
+
+input[type="button"] {
+    padding: 20px 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}
+
+/* styling button on hover */
+input[type="button"]:hover {
+    font-weight: bold;
+    background-color: #858585;
+    border: 1px solid #858585;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}

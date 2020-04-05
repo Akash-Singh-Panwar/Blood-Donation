@@ -1,0 +1,262 @@
+/* css file of user landing page */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom, #fff 0%, #f3f7f7 100%);
+}
+
+/* styling header navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .link a.name-user {
+    position: absolute;
+    top: 28.8%;
+    right: 27.5%;
+    color: #696969;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.name-user:hover {
+    color: #808080;
+}
+
+.navbar .link a.logout, a.donate-link, a.recieve-link, a.feedback-link {
+    position: absolute;
+    top: 36%;
+    color: #696969;
+    text-decoration: none;
+}
+
+.logout {
+    right: 5%;
+}
+
+.donate-link {
+    right: 10%;
+}
+
+.recieve-link {
+    right: 15%;
+}
+
+.feedback-link {
+    right: 20.5%;
+}
+
+.navbar .link a.logout:hover {
+    color: #FA8072;
+}
+
+.donate-link:hover, .accept-link:hover, .feedback-link:hover {
+    color: #FA8072;
+} 
+
+/* styling main-content */
+.main-container {
+    margin-top: 10%;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/* styling wall img of user */
+.bg-wall {
+    border-radius: 4px;
+}
+
+/* styling profile picture of user */
+#profile-img {
+    position: absolute;
+    top: 55%;
+    left: 18%;
+}
+
+.profile-wall {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* styling sample-info-of-user */ 
+#info-left {
+    background-color: #ebebeb;
+    height: 325px;
+    width: 26%; 
+    margin: 130px 55px;
+    padding: 10px 20px;
+    text-align: left;
+    word-break: break-all;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+#head-info {
+    padding: 20px 0;
+}
+
+.info-img {
+    position: absolute;
+    margin-left: 100px;
+}
+
+h2 {
+    display: inline;
+    color: #000000;
+}
+
+.info {
+   margin-left: 142px;
+}
+
+#info-content {
+    padding: 20px 0;
+    height: auto;
+}
+
+.age-img {
+    position: absolute;
+    padding: 0 10px;
+}
+
+#age {
+    padding: 30px 45px;
+}
+
+.dob-img {
+    position: absolute;
+    padding: 20px 10px;
+}
+
+#DOB {
+    position: absolute;
+    padding: 20px 45px;
+}
+
+.email-img {
+    position: absolute;
+    padding: 40px 10px;
+}
+
+#peremail {
+    position: absolute;
+    padding: 40px 45px;
+}
+
+.twitter-img {
+    position: absolute;
+    padding: 60px 10px;
+}
+
+#twitter {
+    position: absolute;
+    padding: 60px 45px;
+}
+
+.insta-img {
+    position: absolute;
+    padding: 80px 10px;
+}
+
+#insta {
+    position: absolute;
+    padding: 80px 45px;
+}
+
+.address-img {
+    position: absolute;
+    padding: 100px 10px;
+}
+
+#address {
+    position: absolute;
+    padding: 100px 45px;
+}
+
+/* styling sample-donation-details-of-user */
+#main-info {
+    background-color: #ebebeb;
+    position: absolute;
+    left: 40%;
+    top: 85.5%;
+    width: 580px;
+    height: 283px;
+    padding: 30px 25px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+#main-info-head {
+    padding: 0 30px;
+    font-size: 25px;
+    color: #000000;
+}
+
+#list {
+    width: 100%;
+    padding: 0 50px;
+}
+
+ol {
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+ol li {
+    padding: 7px 20px;
+}
+
+li a#details {
+    color: #2B2828;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+a#details:hover {
+    color: #FA8072;
+}
+
+/* styling footer */
+.footer-container {
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    text-align: center;
+}

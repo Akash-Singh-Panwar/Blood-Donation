@@ -1,0 +1,234 @@
+/* feedback css */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to left, #ebebeb 50%, #fff 50.1%);
+}
+
+/* styling header navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: absolute;
+    width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+a.name-user {
+    position: absolute;
+    top: 30.1%;
+    right: 11%;
+    color: #696969;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .link a.logout {
+    position: absolute;
+    right: 5%;
+    top: 36%;
+    color: #696969;
+	text-decoration: none;
+    
+}
+
+.navbar .link a.logout:hover {
+	color: #808080;
+}
+
+/* styling heading */
+#head h1 {
+    color: #2B2828;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+/* styling form */
+.feedback-form form {
+    background-color: #ffffff;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 600px;
+}
+
+form {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    padding-top: 5px;
+    padding-left: 25px;
+    color: #2B2828;
+}
+
+span {
+    padding-left: 25px;
+    padding-right: 35px;
+    color: #2B2828;
+}
+
+.info {
+    font-size: 13px;
+}
+
+/* styling middle-content of form */
+#middle-content {
+    margin-top: 40px;
+}
+
+.asking-ques {
+    font-size: 18px;
+}
+
+ul li {
+    margin-left: 0;
+    padding-left: 5px;
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    color: #696969;
+}
+
+/* styling icons */
+#smile a:hover {
+    color: #008000;
+}
+
+#meh a:hover {
+    color: #ffbf00;
+}
+
+#frown a:hover {
+    color: #DC143C;
+}
+/* styling icons end */
+
+#email, #comments {
+    padding: 10px 25px;
+}
+
+/* styling inputs */
+input[type="text"] {
+   padding: 10px 0;
+   border: none;
+   border-bottom: 1px solid #202020;
+   font-size: 15px;
+   outline: none;
+}
+
+input[type="text"]:focus {
+    border: none;
+    border-bottom: 1px solid #000000;
+    width: 100%;
+    outline: none;
+    
+}
+
+/* styling placeholders */
+input[type="text"]::placeholder {
+    padding: 10px 2px;
+    font-size: 15px;
+    font-family: FontAwesome;
+}
+
+/* styling comment area */
+textarea {
+    width: 89%;
+    height: 130px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: 1px solid #202020;
+    resize: none;
+    outline: none;
+}
+
+/* styling comment area when we click on it */ 
+textarea:focus {
+    border: 1px solid #000000;
+    border-radius: 3px;
+    outline: none;
+}
+
+/* styling comment placeholder */
+textarea::placeholder {
+    padding: 5px 5px;
+}
+
+/* styling radio option */
+.radio-select {
+    padding: 10px 15px;  
+}
+
+input[type="radio"] {
+    margin: 10px;
+}
+
+/* styling bottom part of form */
+#bottom-form-container {
+    padding: 20px;
+}
+
+/* styling submit button of form */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+/* styling submit button when mouse goes on submit */
+input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #858585;
+    border: 1px solid #858585;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}
+
+
+
+

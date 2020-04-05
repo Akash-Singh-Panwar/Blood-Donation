@@ -1,0 +1,333 @@
+/* css file of hospital page */
+
+/* styling header navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .link a {
+    padding: 0 8px;
+    color: #696969;
+    text-decoration: none;
+}
+
+.navbar .link a:hover {
+    background-color: #808080;
+    color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.navbar input[type="button"] {
+    padding: 5px 10px;
+    margin-left: 11px;
+    margin-right: 5px;
+    background-color: white;
+    border: 1px solid #FA8072;
+    color: #696969;
+    border-radius: 2px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.navbar input[type="button"]:hover {
+    background-color: #FA8072;
+    color: white;
+}
+
+/* styling background text boxes */
+#box1 {
+    position: absolute;
+    width: 1290px;
+    height: 130px;
+    left: 2%;
+    top: 100px;
+    background: linear-gradient(to right, #3a4b96 0%,  #6c92fc 100%);
+    border-radius: 10px;
+}
+
+#box2 {
+    position: absolute;
+    width: 182px;
+    height: 175px;
+    left: 2%;
+    top: 240px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box3 {
+    position: absolute;
+    width: 182px;
+    height: 176px;
+    left: 2%;
+    top: 430px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box4 {
+    position: absolute;
+    width: 182px;
+    height: 176px;
+    left: 2%;
+    top: 623px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box5 {
+    position: absolute;
+    width: 182px;
+    height: 176px;
+    left: 2%;
+    top: 816px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box6 {
+    position: absolute;
+    width: 182px;
+    height: 176px;
+    left: 2%;
+    top: 1010px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box7 {
+    position: absolute;
+    width: 1085px;
+    height: 175px;
+    left: 17%;
+    top: 240px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box7:hover{
+    background: linear-gradient(to right, #4ca1af 0%,  #c4e0e5 100%);
+}
+
+#box8 {
+    position: absolute;
+    width: 1085px;
+    height: 176px;
+    left: 17%;
+    top: 430px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box8:hover{
+    background: linear-gradient(to right, #4ca1af 0%,  #c4e0e5 100%);
+}
+
+#box9 {
+    position: absolute;
+    width: 1085px;
+    height: 176px;
+    left: 17%;
+    top: 625px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box9:hover{
+    background: linear-gradient(to right, #4ca1af 0%,  #c4e0e5 100%);
+}
+
+#box10 {
+    position: absolute;
+    width: 1085px;
+    height: 176px;
+    left: 17%;
+    top: 816px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box10:hover{
+    background: linear-gradient(to right, #4ca1af 0%,  #c4e0e5 100%);
+}
+
+#box11 {
+    position: absolute;
+    width: 1085px;
+    height: 176px;
+    left: 17%;
+    top: 1010px;
+    background: #C4C4C4;
+    border-radius: 10px;
+}
+
+#box11:hover{
+    background: linear-gradient(to right, #4ca1af 0%,  #c4e0e5 100%);
+}
+
+/* styling text showing upon boxes */
+#text7 {
+    position: absolute;
+    font-size: 100px;
+    left: 420px;
+    top: 105px;
+}
+
+#text8 {
+    position: absolute;
+    font-size: xxx-large;
+    left: 270px;
+    top: 245px;
+}
+
+#text9 {
+    position: absolute;
+    top: 435px;
+    left: 270px;
+    font-size: xxx-large;
+}
+
+#text10 {
+    position: absolute;
+    top: 632px;
+    left: 270px;
+    font-size: xxx-large;
+}
+
+#text11 {
+    position: absolute;
+    top: 822px;
+    left: 270px;
+    font-size: xxx-large;
+}
+
+#text12 {
+    position: absolute;
+    top: 1012px;
+    left: 270px;
+    font-size: xxx-large;
+}
+
+#text1 {
+    font-size: xx-large;
+}
+
+/* styling donate buttons */
+#donate1 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+#donate2 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+#donate3 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+#donate4 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+#donate5 {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+/* styling recieve buttons */
+#accept1 {
+    position :absolute;
+    left:770px;
+    top:100px;
+}
+
+#accept2 {
+    position :absolute;
+    left:770px;
+    top:100px;
+}
+
+#accept3 {
+    position :absolute;
+    left:770px;
+    top:100px;
+}
+
+#accept4 {
+    position :absolute;
+    left:770px;
+    top:100px;
+}
+
+#accept5 {
+    position :absolute;
+    left:770px;
+    top:100px;
+}
+
+button {
+    padding:10px;
+    width : 100px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    border:none;
+    border-radius:5px;
+}
+
+button:hover {
+    color:red;
+}
+
+/* styling footer */
+.footer-container {
+    position: relative;
+    top: 1200px;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+}

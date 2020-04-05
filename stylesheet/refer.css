@@ -1,0 +1,57 @@
+/* css file of refer page */
+
+body {
+    background: linear-gradient(to left, #ebebeb 51%, #fff 50%);
+}
+
+/* styling home link shows in right */
+#right-link a {
+    float: right;
+    margin: 20px 60px;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: #2B2828;
+    border-radius: 5px;
+    border: 2px solid #2B2828;
+    text-decoration: none;
+}
+
+/* styling home link shows in right on hover */
+#right-link a:hover {
+    color: #000000;
+    font-weight: bold;
+    border: 2px solid #000000;
+}
+
+/* styling image */
+img.refer {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 49%;
+}
+
+/* styling small info */
+#refer-content-right {
+    position: absolute;
+    top: 38%;
+    left: 55%;
+    font-size: 30px;
+    color: #2B2828;
+}
+
+/* styling small info link */
+#refer-content-right a {
+    position: absolute;
+    top: 155%;
+    left: 0%;
+    font-size: 30px;
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+/* styling small link on hover */
+#refer-content-right a:hover {
+    color: #000000;
+    font-weight: bold;
+}

@@ -1,0 +1,126 @@
+/* css file of login page */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to left, #ebebeb 50%, #fff 50%);
+}
+
+/* styling header navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: absolute;
+    width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .link a {
+    padding: 0 8px;
+    color: #696969;
+	text-decoration: none;
+    
+}
+
+.navbar .link a:hover {
+	background-color: #808080;
+	color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+h1 {
+    margin: 140px 0;
+    text-align: center;
+}
+
+/* styling form */
+.loginportal {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+form {
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#info input[type=text], input[type=password] {
+    margin-top: 20%;
+    margin-left: 17%;
+    font-size: 15px;
+}
+
+/* styling inputs */
+input[type=text], input[type=password] {
+    padding: 15px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+/* styling placeholder */
+/* Using font-family: FontAwesome to display icon of user and key */
+::placeholder {
+    font-size: 15px;
+    font-family: FontAwesome;
+    padding: 5px 0;
+}
+
+#button {
+    margin-top:40px;
+    margin-left:115px;
+}
+
+input[type=submit] {
+    padding:10px;
+    width : 70px;
+    font-weight: bold;
+    color:white;
+    background-color: black;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}
+
+input[type=submit]:hover {
+    font-weight: bold;
+    color:white;
+    background-color: #858585;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}

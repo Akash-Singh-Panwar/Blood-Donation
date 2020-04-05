@@ -1,0 +1,237 @@
+/* css file of index page means main page */
+
+body {
+	background-image: linear-gradient(to bottom, #fff 0%, #f3f7f7 100%);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* styling header navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: fixed;
+    width: 100%;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .link a {
+    padding: 0 8px;
+    color: #696969;
+	text-decoration: none;
+    
+}
+
+.navbar .link a:hover {
+	background-color: #808080;
+	color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.navbar input[type="button"] {
+	padding: 5px 10px;
+	margin-left: 11px;
+	margin-right: 5px;
+	background-color: white;
+	border: 1px solid #FA8072;
+	color: #696969;
+	border-radius: 2px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+	outline: none;
+}
+
+.navbar input[type="button"]:hover {
+	background-color: #FA8072;
+	color: white;
+}
+
+.main {
+	margin-top: 85px;
+}
+
+/* styling small texts */
+div#slogan {
+	padding: 90px;
+	font-size: 40px;
+	color: #5A5555;
+}
+
+/* styling poster showing in right */
+.poster-blood-bag {
+	float: right;
+}
+
+#body-content-left {
+	padding-left: 90px;
+}
+
+h2 {
+	margin-top: 0px;
+	color: #2B2828;
+	font-size: 35px;
+}
+
+span.small-content {
+	color: #7D7D7D;
+}
+
+/* styling buttons */
+#buttons {
+	padding: 50px;
+	padding-left: 55px;
+}
+
+#buttons input[type="button"] {
+	padding: 10px 60px;
+	margin: 20px;
+	margin-top: 5px;
+	border: 1px solid;
+	border-radius: 2px;
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+	outline: none;
+}
+
+/* styling login-buttons */
+#buttons input[name="login"] {
+	background-color: #f3f7f7;
+	border: 1px solid #FA8072;
+	font-size: 19px;
+	color: #2B2828;
+}
+
+/*styling login-button on hover */
+#buttons input[name="login"]:hover {
+	background-color: #FA8072;
+	color: white; 
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* styling signup-button */
+#buttons input[name="signup"] {
+	background-color: #f3f7f7;
+	border: 1px solid #808080;
+	font-size: 19px;
+	color: #2B2828;
+}
+
+/*styling signup-button on hover */
+#buttons input[name="signup"]:hover {
+	background-color: #858585;
+	color: white; 
+	box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* styling footer */
+.footer {
+	padding: 50px;
+	padding-left: 90px;
+}
+
+.footer-container {
+	font-size: 12px;
+	color: #5A5555;
+}
+
+.footer-container a {
+	text-decoration: none;
+	color: #5A5555;
+	padding: 5px;
+}
+
+/* popup form */
+/* styling popup form */
+#popupform {
+	display: none;
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4);
+}
+
+.loginportal {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 330px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+}
+
+#info input[type=text], input[type=password] {
+    margin-top: 20%;
+    margin-left: 17%;
+    font-size: 15px;
+}
+
+input[type=text], input[type=password] {
+    padding: 15px 0;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+}
+
+/* Using font-family: FontAwesome to display user-icon and key-icon */
+::placeholder {
+    font-size: 15px;
+    font-family: FontAwesome;
+    padding: 5px 0;
+}
+
+#button {
+    margin-top:40px;
+    margin-left:110px;
+}
+
+.loginportal input[type="submit"], .loginportal input[type="button"] {
+    padding:10px;
+    width : 70px;
+    color:white;
+    background-color: black;
+    border:none;
+    border-radius:5px;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+    font-weight: bold;
+    color:white;
+    background-color: #858585;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,0.2);
+}

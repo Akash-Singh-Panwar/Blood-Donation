@@ -1,0 +1,101 @@
+/* css file of FAQs page */
+
+body {
+    background: linear-gradient(to top, #ff3232 100%, #fff 0%);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* styling header-navbar */
+.navbar {
+    background-color: #ebebeb;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
+}
+
+#logo a {
+    float: left;
+    padding: 15px 0;
+    text-decoration: none;
+}
+
+#logo {
+    padding-left: 30px;
+}
+
+a h1 {
+    margin-top: 7px;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: #000000;
+    text-shadow: 3px 2px #DCDCDC;;
+}
+
+.link {
+    float: right;
+    padding: 10px 60px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+.navbar .link a {
+    padding: 0 8px;
+    color: #696969;
+	text-decoration: none;
+    
+}
+
+.navbar .link a:hover {
+	background-color: #808080;
+	color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+}
+
+.navbar input[type="button"] {
+	padding: 5px 10px;
+	margin-left: 11px;
+	margin-right: 5px;
+	background-color: white;
+	border: 1px solid #FA8072;
+	color: #696969;
+	border-radius: 2px;
+	box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+	outline: none;
+}
+
+.navbar input[type="button"]:hover {
+	background-color: #FA8072;
+	color: white;
+}
+
+/* styling main content */ 
+#content {
+    background-color: #ffffff;
+    margin-top: 80px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 20px 25px;
+    border-radius: 3px;
+}
+
+#content h1, h4 {
+    color: #2B2828;
+}
+
+p {
+    color: #7D7D7D;
+}
+
+/* styling footer */
+.footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #ffffff;
+}
